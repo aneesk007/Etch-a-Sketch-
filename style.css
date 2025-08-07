@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.cell{
+    
+    background-color: aquamarine;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+
+}
+
+button{
+    padding:5px 10px;
+    display: block;
+    width: 100%;
+    margin:10px 26px;
+}
+
+.cell:hover{
+    background-color:#7f4447;
+}
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:5%;
+    border:1px solid red;
+}
